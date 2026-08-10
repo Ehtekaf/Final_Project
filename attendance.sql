@@ -13,8 +13,8 @@ CREATE TABLE courses (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
     faculty_id INTEGER NOT NULL,
-    FOREIGN KEY (faculty_id) REFERENCES users(id)
     term TEXT NOT NULL,
+    FOREIGN KEY (faculty_id) REFERENCES users(id)
 );
 
 --enrollments
