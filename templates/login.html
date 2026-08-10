@@ -1,5 +1,9 @@
-{% extends "base.html" %}
-{% block content %}
+{% extends "layout.html" %}
+{% block title %}
+    Login
+{% endblock %}
+
+{% block main %}
     <h2>Login</h2>
     <form method="POST">
         <input type="email" name="email" placeholder="Email" required>
